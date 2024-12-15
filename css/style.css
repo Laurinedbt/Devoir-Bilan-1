@@ -4,8 +4,8 @@ header, footer{
 }
 
 figure{
-    width: 120px;
-    height: 120px;
+    width: 140px;
+    height: 140px;
 }
 
 img{
@@ -27,4 +27,17 @@ h3{
 
 .date{ 
     color: #17abb3;
+}
+
+h1{
+    font-size: 3.3em;
+}
+
+h2{
+    font-size: 1.4em;
+}
+
+h3{
+    font-size: 1.4em;
+    letter-spacing: 1px;
 }
