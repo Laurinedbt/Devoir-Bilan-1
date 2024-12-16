@@ -3,19 +3,6 @@ header, footer{
     color: #ffffff;
 }
 
-figure{
-    width: 140px;
-    height: 140px;
-}
-
-img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border: 4px solid #ffffff;
-    border-radius: 50%;
-}
-
 h3{
     color: #17abb3; 
     font-weight: 400;
