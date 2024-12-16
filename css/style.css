@@ -3,15 +3,13 @@ header, footer{
     color: #ffffff;
 }
 
-figure{
-    width: 140px;
-    height: 140px;
+header{
+    height: 240px;
 }
 
 img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    width: 140px;
+    height: 140px;
     border: 4px solid #ffffff;
     border-radius: 50%;
 }
