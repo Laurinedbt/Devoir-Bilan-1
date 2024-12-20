@@ -1,10 +1,25 @@
-header, footer{
+header, footer, .info-container{
     background-color: #17abb3;
     color: #ffffff;
 }
 
+header, main, footer{
+    width: 1160px;
+}
+
 header{
     height: 240px;
+    display: flex;
+    justify-content: space-between;
+}
+
+mark{
+    color: #ffffff;
+    background-color: #17abb3;
+}
+
+figure{
+    margin-left: 5rem;
 }
 
 img{
@@ -12,6 +27,10 @@ img{
     height: 140px;
     border: 4px solid #ffffff;
     border-radius: 50%;
+}
+
+.info-container{
+    margin: auto;
 }
 
 h3{
