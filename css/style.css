@@ -105,3 +105,23 @@ aside{
     margin: 0;
 }
 
+.bold{
+    font-weight: 600;
+    color: #333333;
+}
+
+li{
+    list-style-type: square;
+}
+
+li::marker{
+    color: #17abb3;
+    font-size: 1.3em;
+}
+
+.stars{
+    color: #17abb3;
+    font-size: 0.9em;
+}
+
+
