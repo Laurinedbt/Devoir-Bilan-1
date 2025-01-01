@@ -99,3 +99,9 @@ aside{
     padding-left: 50px;
 }
 
+.title-container{
+    border-bottom: 1px solid #e3e3e3;
+    width: 70%;
+    margin: 0;
+}
+
