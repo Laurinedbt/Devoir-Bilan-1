@@ -148,7 +148,9 @@ section{
 }
 
 .date{
-    text-align: right;
+    grid-column: 2;
+    margin: 0;
+    justify-self: right;
 }
 
 .skills, .languages{
@@ -171,6 +173,27 @@ section{
 .languages{
     white-space: nowrap;
 }
+
+.section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 20px;
+    margin: 0;
+}
+
+.section .bold, .place{
+    grid-column: 1;
+    margin: 0;
+}
+
+.place{
+    padding-bottom: 20px;
+    font-size: 0.8em;
+}
+
+
+
+
 
 
 
