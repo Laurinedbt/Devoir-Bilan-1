@@ -79,6 +79,8 @@ h2{
     font-size: 1.4em;
     color: #17abb3;
     font-weight: 400;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 header ul li{
@@ -97,11 +99,12 @@ aside{
 
 .side-content{
     padding-left: 50px;
+    padding-right: 50px;
 }
 
 .title-container{
     border-bottom: 1px solid #e3e3e3;
-    width: 70%;
+    
     margin: 0;
 }
 
@@ -122,6 +125,23 @@ li::marker{
 .stars{
     color: #17abb3;
     font-size: 0.9em;
+}
+
+.indent, .indent_1{
+    text-indent: 20px;
+}
+
+section{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.profil .indent_1{
+    padding-top: 15px;
+}
+
+.date{
+    text-align: right;
 }
 
 
