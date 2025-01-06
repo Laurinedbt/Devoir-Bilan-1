@@ -104,8 +104,8 @@ aside{
 
 .title-container{
     border-bottom: 1px solid #e3e3e3;
-    
     margin: 0;
+    padding-top: 10px;
 }
 
 .bold{
@@ -115,6 +115,11 @@ aside{
 
 li{
     list-style-type: square;
+    list-style-position: inside;
+}
+
+ul{
+    padding-top: 15px;
 }
 
 li::marker{
@@ -125,6 +130,8 @@ li::marker{
 .stars{
     color: #17abb3;
     font-size: 0.9em;
+    grid-column: 2;
+    align-self: right;
 }
 
 .indent, .indent_1{
@@ -143,5 +150,29 @@ section{
 .date{
     text-align: right;
 }
+
+.skills, .languages{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 10px;
+    padding-top: 20px;
+}
+
+.stars, .level{
+    grid-column: 2;
+    margin: 0;
+    justify-self: right;
+}
+
+.skills .bold, .languages .bold{
+    margin: 0;
+}
+
+.languages{
+    white-space: nowrap;
+}
+
+
+
 
 
