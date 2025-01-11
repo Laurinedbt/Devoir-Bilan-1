@@ -91,7 +91,6 @@ li img{
 
 .contact_list ul li{
     padding-bottom: 5px;
-    font-size: 1em;
 }
 
 h1{
@@ -104,7 +103,7 @@ h1{
 main{
     display: grid;
     grid-template-columns: 350px auto;
-    height: 900px;
+    height: 875px;
 }
 
 h2{
@@ -154,7 +153,7 @@ ul{
 
 li::marker{
     color: #17abb3;
-    font-size: 1.3em;
+    font-size: 1.4em;
 }
 
 .stars{
@@ -246,6 +245,7 @@ a{
     text-decoration: none;
     color: inherit;
 }
+
 
 
 
