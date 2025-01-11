@@ -159,7 +159,6 @@ li::marker{
     color: #17abb3;
     font-size: 0.9em;
     grid-column: 2;
-    align-self: right;
 }
 
 .indent, .indent_1{
